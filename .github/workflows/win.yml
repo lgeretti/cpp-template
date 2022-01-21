@@ -43,7 +43,7 @@ jobs:
 
     - name: Configure CMake
       working-directory: ${{runner.workspace}}/build
-      run: cmake ${{runner.workspace}}/cpp-template -DCMAKE_TOOLCHAIN_FILE=C:/vcpkg/scripts/buildsystems/vcpkg.cmake"
+      run: cmake ${{runner.workspace}}/cpp-template -DCMAKE_TOOLCHAIN_FILE=C:/vcpkg/scripts/buildsystems/vcpkg.cmake
 
     - name: Build
       working-directory: ${{runner.workspace}}/build
